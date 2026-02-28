@@ -25,7 +25,8 @@ st.markdown("""
         box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     }
     </style>
-    """, unsafe_allow_Harris=True)
+    """, unsafe_allow_html=True)
+
 
 st.title("🛍️ Dashboard Analisis Kepuasan Pelanggan")
 st.markdown("Analisis data survei untuk optimasi layanan dan strategi segmentasi.")
